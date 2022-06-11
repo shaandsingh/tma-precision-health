@@ -8,7 +8,5 @@ const uniqId = (() => {
 })();
 
 var data = $.map(rareDiseases, function (disease) {
-	return { id: uniqId(), text: disease };
+    return { id: uniqId(), text: disease };
 });
-
-console.log(data);
